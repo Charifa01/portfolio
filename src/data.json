@@ -68,26 +68,26 @@
     }
   },
   "experienceData": {
-    "text": "Hello there! My name is Lilon Macwan. I am a web designer & developer, and Im very passionate and dedicated to my work.",
+    "text": "As a junior developer, I’ve had the chance to work on real-world projects through internships and freelance work, where I contributed to both front-end and back-end development. From building responsive websites in WordPress and Elementor to creating dynamic dashboards using Laravel, Vue.js, and the MERN stack, each experience helped me grow technically and professionally.",
     "resumeCv": "/Resume.pdf",
     "experience": [
       {
-        "start": "2020",
+        "start": "Sep 2024",
         "end": "Present",
-        "title": "LEAD UI/UX DESIGNER",
-        "subtitle": "UI/UX Lead"
+        "title": "WORDPRESS DEVELOPER",
+        "subtitle": "BeeNetwork"
       },
       {
-        "start": "2017",
-        "end": "2018",
-        "title": "SENIOR UI/UX DESIGNER",
-        "subtitle": "UI/UX Designer"
+        "start": "May 2024 – Aug 2024",
+        "end": "Internship",
+        "title": "FULL STACK DEVELOPER ",
+        "subtitle": "DAR DIGITAL"
       },
       {
-        "start": "2015",
-        "end": "2017",
-        "title": "WEB DESIGN AND DEVELOPER",
-        "subtitle": "Jr. UI/UX Designer"
+        "start": "May 2022 – Jun 2022",
+        "end": "Internship",
+        "title": "FRONT-END DEVELOPER",
+        "subtitle": "PUBMARO"
       }
     ]
   },
