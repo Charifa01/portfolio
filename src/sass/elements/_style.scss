@@ -788,6 +788,34 @@ a {
   pointer-events: none;
   transition: all 0.15s ease;
 }
+
+
+.section-skills-2 .carouselTicker__item {
+    position: relative;
+    margin: 0 15px;
+    float: left;
+    text-align: center;
+    border: 1px solid var(--px-theme);
+  }
+  .icon_80 {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+.icon-shape {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+.carouselTicker__list {
+  margin: 10px 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 575px) {
   .cs-cursor_lg,
   .cs-cursor_sm {
