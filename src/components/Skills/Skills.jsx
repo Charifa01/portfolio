@@ -5,10 +5,10 @@ export default function Skills() {
 	return (
 		<>
 
-<section id="skills" className="section-skills-2 pt-5">
+<section id="skills" className="section-skills-2 pt-5 px-3">
 				<div className="container">
-					<div className="rounded-3 bg-3 border border-1 position-relative overflow-hidden py-5">
-						<div className="position-relative z-1 py-60">
+					<div className="hero-container ">
+						<div className="hero-content position-relative z-1 py-5">
 							<div className="position-relative z-1">
 								<div className="text-center">
 									
@@ -17,7 +17,7 @@ export default function Skills() {
 								<div className="container mt-5">
 									<div className="row">
 										<div className="col-lg-6">
-										<div className="row py-4">
+										<div className="row py-4 ">
 												<div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
 													{/* Carausel Scroll */}
 													<Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
@@ -60,9 +60,9 @@ export default function Skills() {
 																	<img src="/hero-1/icon-7.svg" alt="brand" />
 																</div>
 															</li>
-															<li className="carouselTicker__item mt-6 rounded-3">
+															<li className="carouselTicker__item px-2 mt-6 rounded-3">
 																<div className="brand-logo icon_80 icon-shape ">
-																	<img src="/hero-1/icon-8.svg" alt="brand" />
+																	<img src="/hero-1/php.svg" alt="brand" />
 																</div>
 															</li>
 															<li className="carouselTicker__item mt-6 rounded-3">

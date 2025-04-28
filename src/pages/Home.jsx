@@ -9,7 +9,8 @@ import Service from "../components/Service/Service";
 import Testimonial from "../components/Testimonial/Testimonial";
 import data from "../data.json";
 import Skills from "../components/Skills/skills";
-
+import Projects from "../components/Projects/Projects";
+import Exemple from "../components/Exemple/Exemple";
 
 const Home = () => {
   const { heroData, aboutData, experienceData, portfolioData, serviceData, blogData, sliderData, contactData, footerData } = data;
@@ -19,7 +20,10 @@ const Home = () => {
         <Hero data={heroData} />
         <About data={aboutData} />
         <Experience data={experienceData} />
+        
         <Skills/>
+        <Projects/>
+        <Exemple/>
         <Service data={serviceData} />
         <Portfolio data={portfolioData} />
         <Testimonial data={sliderData} />
