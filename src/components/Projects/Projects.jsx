@@ -2,6 +2,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules'; // Changed import
 import 'swiper/css/bundle'; // Added bundle import
+import { Icon } from '@iconify/react';
 
 const styles = {
   swiper: {
@@ -10,37 +11,15 @@ const styles = {
     margin: '20px 0'
   }
 };
-const projectData = [
-    {
-      title: "Integrate AI into the ecommerce system",
-      description: "Developed an online learning platform with course management, quizzes, and progress tracking.",
-      client: "Conceptual JSC",
-      time: "6 months",
-      tech: "Node.js, React, MongoDB, Stripe",
-      image: "/hero-1/img-1.png",
-      liveDemo: "#",
-      github: "#",
-    },
-    {
-      title: "Integrate AI into the ecommerce system",
-      description: "Developed an online learning platform with course management, quizzes, and progress tracking.",
-      client: "Conceptual JSC",
-      time: "6 months",
-      tech: "Node.js, React, MongoDB, Stripe",
-      image: "/hero-1/img-1.png",
-      liveDemo: "#",
-      github: "#",
-    },
-  ];
 
-export default function Projects (){
+export default function Projects ({ data }){
   return (
    <section>
       <div id="work" className="section work-section">
-        <div className="container rounded-3 border-class m-3 p-4">
+        <div className="container m-3 p-4">
           <SectionHeading title="RECENT PROJECT" subTitle="My Work" />
-          <div className="position-relative" style={styles.swiper}>
-                <Swiper
+           <div className="position-relative hero-container" style={styles.swiper}>
+                <Swiper className='hero-content'
                   modules={[Navigation, Pagination, Autoplay]}
                   spaceBetween={50}
                   slidesPerView={1}
@@ -50,41 +29,31 @@ export default function Projects (){
                   }}
                   loop= {true}
                   autoplay={{
-                      delay: 3000, 
+                      delay: 100000, 
                       disableOnInteraction: false, 
                       pauseOnMouseEnter: true 
                     }}
               
                   grabCursor={true}
                 >
-                 {projectData.map((project, index) => (
+                 {data.map((project, index) => (
                                      <SwiperSlide key={index}>
-                                       <div className="p-lg-5 p-md-4 p-3 rounded-3 border-class mt-5 bg-3">
+                                       <div className="py-lg-5 px-lg-4 py-md-4 rounded-4 border-class m-5 bg-3">
                                          <div className="row">
-                                           <div className="col-lg-5">
-                                             <img className="w-100" src={project.image} alt="project-img" />
+                                           <div className="col-lg-6">
+                                             <img className="w-100 rounded-4" src={project.image} alt="project-img" />
                                            </div>
-                                           <div className="col-lg-7 ps-lg-5 mt-5 mt-lg-0">
-                                             <h4 className="text-linear-4">{project.title}</h4>
+                                           <div className="col-lg-6 ps-lg-3 mt-5 mt-lg-0">
+                                             <h4 className="text-linear-4 my-3 ">{project.title}</h4>
                                              <p>{project.description}</p>
                                              <ul className="mt-4 list-unstyled">
-                                               <li className="text-light mb-3 border-bottom pb-3">Project Info</li>
-                                               <li className="text-light mb-3 border-bottom pb-3 d-flex justify-content-between">
-                                                 <p className="mb-0">Client</p>
-                                                 <p className="mb-0 text-300">{project.client}</p>
-                                               </li>
-                                               <li className="text-light mb-3 border-bottom pb-3 d-flex justify-content-between">
-                                                 <p className="mb-0">Completion Time</p>
-                                                 <p className="mb-0 text-300">{project.time}</p>
-                                               </li>
-                                               <li className="text-light mb-3 border-bottom pb-3 d-flex justify-content-between">
-                                                 <p className="mb-0">Technologies</p>
+                                               <li className="text-light mb-3 pb-3 d-flex gap-2">
+                                                 <p className="mb-0">Technologies:</p>
                                                  <p className="mb-0 text-300">{project.tech}</p>
                                                </li>
                                              </ul>
                                              <div className="d-flex flex-wrap align-items-center gap-3 mt-4">
-                                               <a href={project.liveDemo} className="text-300 border-bottom border-1 px-2 pb-2 link-hover">Live Demo</a>
-                                               <a href={project.github} className="text-300 border-bottom border-1 px-2 pb-2 link-hover">View on Github</a>
+                                               <a href={project.liveDemo} className="text-300  px-2 pb-2 link-hover" style={{ color: '#6333ff' }}>Live Demo <Icon icon="bi:arrow-up-right" /></a>
                                              </div>
                                            </div>
                                          </div>
@@ -93,13 +62,13 @@ export default function Projects (){
                                    ))}
                   
                 </Swiper>
-                <div className="position-absolute bottom-0 end-0 gap-2 pb-7 pe-5 d-none d-md-flex">
-                <div className="swiper-button-prev end-0 shadow position-relative">
+                <div className="position-absolute bottom-0 end-0 gap-2 pb-5 pe-5 d-none d-md-flex">
+                <div className="swiper-button-prev end-2 shadow position-relative">
                   <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                     <path d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z" fill="white" />
                   </svg>
                 </div>
-                <div className="swiper-button-next end-0 shadow position-relative">
+                <div className="swiper-button-next end-2 shadow position-relative">
                   <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
                     <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z" fill="#A8FF53" />
                   </svg>

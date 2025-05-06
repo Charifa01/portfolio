@@ -14,7 +14,7 @@ import Exemple from "../components/Exemple/Exemple";
 import OtherProjects from "../components/OtherProjects/OtherProjects";
 
 const Home = () => {
-  const { heroData, aboutData, experienceData, portfolioData, serviceData, blogData, sliderData, contactData, footerData } = data;
+  const { heroData, aboutData, experienceData, portfolioData, serviceData, blogData, sliderData, contactData, footerData,projectData } = data;
   return (
     <>
       <main className="wrapper">
@@ -23,12 +23,9 @@ const Home = () => {
         <Experience data={experienceData} />
         <Skills/>
         <Service data={serviceData} />
-        <Projects/>
-        <Exemple/>
+        <Projects data={projectData}/>
         <OtherProjects/>
-        <Portfolio data={portfolioData} />
-        <Testimonial data={sliderData} />
-        <Blog data={blogData} />
+       
         <Contact data={contactData} />
         <Footer data={footerData} />
       </main>

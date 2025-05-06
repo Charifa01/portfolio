@@ -1,5 +1,5 @@
 import Marquee from 'react-fast-marquee'
-
+import SectionHeading from '../SectionHeading/SectionHeading';
 
 export default function Skills() {
 	return (
@@ -7,12 +7,13 @@ export default function Skills() {
 
 <section id="skills" className="section-skills-2 pt-5 px-3">
 				<div className="container">
+					<SectionHeading title="Tech Stack & Tools" subTitle="My Skills" />
 					<div className="hero-container ">
 						<div className="hero-content position-relative z-1 py-5">
 							<div className="position-relative z-1">
 								<div className="text-center">
 									
-									<h3 className='fs-1 pb-4'>My Skills</h3>
+									
 								</div>
 								<div className="container mt-5">
 									<div className="row">

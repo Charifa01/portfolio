@@ -430,5 +430,35 @@
       "icon": "pinterest",
       "link": ""
     }
+  ],
+  "projectData":[
+    {
+      "title": "Dartix – Site Vitrine",
+      "description": "A professional showcase website developed for Dartix to present their digital training services and solutions. The platform highlights the company’s offerings with a clean, responsive design and smooth user experience.",
+      "tech": "Next.js, TypeScript, Node.js, Zustand, Bootstrap, Material UI",
+      "image": "/Projects/dartix.webp",
+      "liveDemo": "https://dartix.dar-digital.com/home"
+    },
+    {
+      "title": "Dartix – Dashboard",
+      "description": "A dynamic and intuitive dashboard designed for managing users, courses, meetings, and gamified challenges within the Dartix platform. The interface allows administrators to oversee students, teachers, and rewards in a visually organized and responsive environment.",
+      "tech": "Laravel, Vue.js, TypeScript, Pinia, Bootstrap, Node.js",
+      "image": "/Projects/dartixDashboard.webp",
+      "liveDemo": "#"
+    }
+  ],
+  "otherProjectData":[
+    {
+      "image": "/wordpress-projects/firstHope.webp",
+      "link": "#"
+    },
+    {
+      "image": "/Projects/dartixDashboard.webp",
+      "link": "#"
+    },
+    {
+      "image": "/Projects/dartixDashboard.webp",
+      "link": "#"
+    }
   ]
 }
