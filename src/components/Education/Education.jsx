@@ -3,7 +3,7 @@
 export default function Education() {
 	return (
 		<>
-			 <div className="col-lg-6 ">
+			 <div className="col-lg-6 mt-5 mt-lg-0">
 				<div className="hero-container  border-class  h-100 ">
 					<div className="hero-content h-100 py-5 px-4 ">
 									<div className="d-flex align-items-center">

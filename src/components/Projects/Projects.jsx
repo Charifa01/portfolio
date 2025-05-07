@@ -15,8 +15,8 @@ const styles = {
 export default function Projects ({ data }){
   return (
    <section>
-      <div id="projects" className="section work-section">
-        <div className="container mx-3 px-4">
+      <div id="projects" className="section work-section ">
+        <div className="container mx-1 px-2">
           <SectionHeading title="RECENT PROJECT" subTitle="My Work" />
            <div className="position-relative hero-container" style={styles.swiper}>
                 <Swiper className='hero-content'

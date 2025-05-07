@@ -6,7 +6,7 @@ import { Icon } from "@iconify/react";
 const Experience = ({ data }) => {
   const { text, experience, resumeCv } = data;
   return (
-    <section id="experience" className="section experience-section bg-g">
+    <section id="experience" className="section experience-section mx-2 bg-g">
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-5">

@@ -20,6 +20,7 @@ const Layout = () => {
         <>
           <CustomCursor />
           <Header data={headerData} />
+          
           <Outlet />
         </>
       )}

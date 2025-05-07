@@ -15,7 +15,7 @@ const styles = {
 
 export default function OtherProjects({data}){
     return(
-        <section style={{padding: '55px 0 70px'}} className="bg-g px-2">
+        <section style={{padding: '55px 0 70px'}} className="bg-g px-2 mx-2 rounded-4">
             <div className="container">
                 <SectionHeading title="OTHER PROJECTS" subTitle="My Work" />
                 <div className="position-relative" style={styles.swiper}>

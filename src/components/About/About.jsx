@@ -11,7 +11,7 @@ const About = ({ data }) => {
     <section id="about" className="section about-section">
       <div className="container">
         <SectionHeading title="WELCOME TO..." subTitle="Nice to meet you!" />
-        <div className="row px-3">
+        <div className="row px-1">
 			<div className="col-lg-6  ">
 				<div className="hero-container  border-class  h-100 ">
 				  <div className="hero-content h-100 py-5 px-4 ">
