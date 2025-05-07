@@ -2,7 +2,7 @@ import data from "../data.json";
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import Experience from "../components/Experience/Experience";
-import Skills from "../components/Skills/skills";
+import Skills from "../components/Skills/Skills";
 import Service from "../components/Service/Service";
 import Projects from "../components/Projects/Projects";
 import OtherProjects from "../components/OtherProjects/OtherProjects";
