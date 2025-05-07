@@ -27,7 +27,7 @@ const Hero = ({ data }) => {
     <section id="home" className="home-section bg-dark">
       <div className="container">
         <div className="row  min-vh-100 align-items-center">
-          <div className="col-lg-7 col-xl-7 col-xxl-6">
+          <div className="col-lg-7 col-xl-7 col-xxl-6 pl-4">
             <div className="hb-text pe-5">
               <div className="text-secondary-2 d-flex align-items-center">
                         <span className='balise'>&lt;span&gt;</span> Hello! <span className='balise'>&lt;/span&gt;</span> 
@@ -78,17 +78,9 @@ const Hero = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="hb-me">
-      <video
-          src="/portfolio-Imgs/xALaN9CQl8vxj6s885.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-      />
+      <div className="justify-content-center d-flex align-items-center">
+          <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/>
       </div>
-      
-     
       <div className="social-fix">
         <div className="social-links" >
           {
