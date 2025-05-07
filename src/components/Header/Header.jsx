@@ -16,51 +16,21 @@ const Header = ({ data }) => {
 
   return (
     <header>
-      {/* Mob header */}
-      <div className="mob-header" onClick={handleMobileToggle}>
-        <div className="mob-h-left">
-          <Link className="navbar-brand" to="/">
-            <img className="logo-dark" title="" alt="" src={logoDark} />
-            <img className="logo-light" title="" alt="" src={logoLight} />
-          </Link>
-        </div>
-        <div className="mob-h-right">
-          <button className="toggler-menu">
-            <span />
-          </button>
-        </div>
-      </div>
-      {/* End */}
-      {/* Header Top */}
+     
       <div
         className={`header-left-fixed one-page-nav ${
           mobileToggle ? 'menu-open' : ''
         }`}
       >
         {/* Brand */}
-        <div className="logo">
-          <Link className="navbar-brand" to="/">
-            <img
-              className="logo-dark"
-              title="Lilon"
-              alt="site-logo"
-              src={logoDark}
-            />
-            <img
-              className="logo-light"
-              title="Lilon"
-              alt="site-logo"
-              src={logoLight}
-            />
-          </Link>
-        </div>
+        
         {/* / */}
         <ul className="main-menu">
           <li>
             <ScrollLink
               to="home"
               spy={true}
-              duration={500}
+              
               onClick={() => setMobileToggle(false)}
             >
               Home
@@ -70,7 +40,7 @@ const Header = ({ data }) => {
             <ScrollLink
               to="about"
               spy={true}
-              duration={500}
+              
               onClick={() => setMobileToggle(false)}
             >
               About
@@ -78,9 +48,29 @@ const Header = ({ data }) => {
           </li>
           <li>
             <ScrollLink
+              to="experience"
+              spy={true}
+              
+              onClick={() => setMobileToggle(false)}
+            >
+              Experience
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
+              to="skills"
+              spy={true}
+              
+              onClick={() => setMobileToggle(false)}
+            >
+              Skills
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
               to="services"
               spy={true}
-              duration={500}
+              
               onClick={() => setMobileToggle(false)}
             >
               Services
@@ -88,29 +78,19 @@ const Header = ({ data }) => {
           </li>
           <li>
             <ScrollLink
-              to="work"
+              to="projects"
               spy={true}
-              duration={500}
+              
               onClick={() => setMobileToggle(false)}
             >
-              Portfolio
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              to="blog"
-              spy={true}
-              duration={500}
-              onClick={() => setMobileToggle(false)}
-            >
-              Blog
+              Projects
             </ScrollLink>
           </li>
           <li>
             <ScrollLink
               to="contact"
               spy={true}
-              duration={500}
+              
               onClick={() => setMobileToggle(false)}
             >
               Contact

@@ -15,8 +15,8 @@ const styles = {
 export default function Projects ({ data }){
   return (
    <section>
-      <div id="work" className="section work-section">
-        <div className="container m-3 p-4">
+      <div id="projects" className="section work-section">
+        <div className="container mx-3 px-4">
           <SectionHeading title="RECENT PROJECT" subTitle="My Work" />
            <div className="position-relative hero-container" style={styles.swiper}>
                 <Swiper className='hero-content'
@@ -29,7 +29,7 @@ export default function Projects ({ data }){
                   }}
                   loop= {true}
                   autoplay={{
-                      delay: 100000, 
+                      delay: 5000, 
                       disableOnInteraction: false, 
                       pauseOnMouseEnter: true 
                     }}
@@ -38,7 +38,7 @@ export default function Projects ({ data }){
                 >
                  {data.map((project, index) => (
                                      <SwiperSlide key={index}>
-                                       <div className="py-lg-5 px-lg-4 py-md-4 rounded-4 border-class m-5 bg-3">
+                                       <div className="py-lg-5 px-lg-4 py-md-4 m-5 rounded-4 border-class bg-3">
                                          <div className="row">
                                            <div className="col-lg-6">
                                              <img className="w-100 rounded-4" src={project.image} alt="project-img" />

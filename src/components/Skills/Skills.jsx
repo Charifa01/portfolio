@@ -4,8 +4,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 export default function Skills() {
 	return (
 		<>
-
-<section id="skills" className="section-skills-2 pt-5 px-3">
+<section id="skills" className="section-skills-2 mt-5 pt-5 px-3">
 				<div className="container">
 					<SectionHeading title="Tech Stack & Tools" subTitle="My Skills" />
 					<div className="hero-container ">

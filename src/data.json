@@ -415,19 +415,15 @@
   },
   "socialData": [
     {
-      "icon": "twitter",
-      "link": ""
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/charifa-bounagat-a66ba0265/"
     },
     {
-      "icon": "instagram",
-      "link": ""
+      "icon": "github",
+      "link": "https://github.com/Charifa01"
     },
     {
-      "icon": "facebook",
-      "link": ""
-    },
-    {
-      "icon": "pinterest",
+      "icon": "google",
       "link": ""
     }
   ],
@@ -447,18 +443,33 @@
       "liveDemo": "#"
     }
   ],
-  "otherProjectData":[
+  "otherProjectData":[[
+    {
+      "image": "/wordpress-projects/boston-limo.webp",
+      "link": "https://www.cityviewlimousine.com/"
+    },
+    {
+      "image": "/wordpress-projects/private-shuttle.webp",
+      "link": "https://www.vailshuttle.net/"
+    },
+    {
+      "image": "/wordpress-projects/limo-service-seattle.webp",
+      "link": "https://www.alolimos.com/"
+    }
+  ],
+  [
     {
       "image": "/wordpress-projects/firstHope.webp",
-      "link": "#"
+      "link": "http://vail-limo.com/firsthope/"
     },
     {
-      "image": "/Projects/dartixDashboard.webp",
-      "link": "#"
+      "image": "/wordpress-projects/boston airport.webp",
+      "link": "https://bostonairporttransportation.com/"
     },
     {
-      "image": "/Projects/dartixDashboard.webp",
-      "link": "#"
+      "image": "/wordpress-projects/seattle limousine.webp",
+      "link": "https://www.unitedluxurylimousine.com/"
     }
   ]
+]
 }

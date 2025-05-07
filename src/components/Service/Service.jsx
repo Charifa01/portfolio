@@ -3,7 +3,7 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 
 const Service = ({ data }) => {
   return (
-    <section id="services" className="section services-section bg-dark">
+    <section id="services" className="section services-section bg-dark px-3">
       <div className="container">
         <SectionHeading title="My Specialties" subTitle="My Service" />
         <div className="accordion accordion-flush" id="accordion_services">
@@ -38,7 +38,7 @@ const Service = ({ data }) => {
                 data-bs-parent="#accordion_services"
               >
                 <div className="accordion-body">
-                  <div className="row gy-4">
+                  <div className="row g-4">
                     <div className="col-sm-6 col-md-4">
                       <div className="s-img">
                         <img
@@ -48,7 +48,7 @@ const Service = ({ data }) => {
                         />
                       </div>
                     </div>
-                    <div className="col-sm-6 col-md-8">
+                    <div className="col-lg-6 col-sm-6 col-md-8 d-flex flex-column justify-content-center align-items-start">
                       <h3>{element.title}</h3>
                       <div className="s-text">{element.text}</div>
                        <p><span className="fw-bold" >{element.techStack}:</span> {element.techStackText}</p>
