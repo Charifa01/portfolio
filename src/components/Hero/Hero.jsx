@@ -78,7 +78,17 @@ const Hero = ({ data }) => {
           </div>
         </div>
       </div>
-      <div className="hb-me" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"/>
+      <div className="hb-me">
+      <video
+          src="/portfolio-Imgs/xALaN9CQl8vxj6s885.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+      />
+      </div>
+      
+     
       <div className="social-fix">
         <div className="social-links" >
           {

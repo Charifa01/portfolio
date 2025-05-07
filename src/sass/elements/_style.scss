@@ -42,7 +42,8 @@ a {
       opacity: 1;
     }
     @include up-lg {
-      width: 50vw;
+      width: 40vw;
+      height: 100vh
     }
   }
   .hb-text {
@@ -962,7 +963,13 @@ img {
   z-index: 1;
   background: #09081c; /* Your Hero background color */
 }
-
+.hero-video{
+  width: 50%;
+  max-width: 500px;
+  height: 100vh;
+  display: block;
+  margin: 2rem auto;
+}
 /* Animating the custom property --angle */
 @keyframes rotate {
   to {
