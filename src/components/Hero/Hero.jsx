@@ -26,7 +26,6 @@ const Hero = ({ data }) => {
 
   return (
     <>
-      {/* Show MobileHeader only on mobile screens */}
       <div className="d-lg-none">
         <MobileHeader data={{ logoLight: ImgLink }} />
       </div>
@@ -83,8 +82,8 @@ const Hero = ({ data }) => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
 Hero.propTypes = {
   data: PropTypes.object

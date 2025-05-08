@@ -1,24 +1,23 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { socialData } from '../../data.json';
+import MobileHeader from './MobileHeader';
 
 const Header = ({ data }) => {
-  const { logoDark, logoLight } = data;
-
   const [mobileToggle, setMobileToggle] = useState(false);
 
-  const handleMobileToggle = () => {
-    setMobileToggle(!mobileToggle);
-  };
-
   return (
-    <header>
-     
+    <>
+      {/* Show MobileHeader only on mobile screens */}
+      <div className="d-lg-none">
+        <MobileHeader data={data} />
+      </div>
+
+      {/* Existing Header for larger screens */}
       <div
-        className={`header-left-fixed one-page-nav ${
+        className={`header-left-fixed one-page-nav d-none d-lg-block ${
           mobileToggle ? 'menu-open' : ''
         }`}
       >
@@ -108,7 +107,7 @@ const Header = ({ data }) => {
         </ul>
       </div>
       {/* End Header Top */}
-    </header>
+    </>
   );
 };
 
