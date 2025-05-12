@@ -40,7 +40,7 @@ const Hero = ({ data }) => {
                 </div>
 
                 <h1 className="display-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
-                <h3 className="fs-4 my-3">a <span className="text-linear-4 special-color">{'{'} Full Stack {'}'}</span> Web developer<span className="flicker">_</span></h3>
+                <h3 className="fs-4 my-3">A <span className="text-linear-4 special-color">{'{'} Full Stack {'}'}</span> Web developer<span className="flicker">_</span></h3>
 
                 <div className="row">
                   <div className="col-12 col-md-7 my-2">
@@ -68,9 +68,13 @@ const Hero = ({ data }) => {
                 </div>
               </div>
             </div>
+            <div className="col-5" style={{height: '100vh' ,position: 'relative'}} >
+              <div className="hb-me d-none d-lg-block" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800" >
+                <img src={ImgLink} alt="hero" className="img-fluid" />
+              </div>
+            </div>
           </div>
         </div>
-        <div className="hb-me d-none d-lg-block" style={{ backgroundImage: `url(${ImgLink})` }} data-aos="fade-left" data-aos-duration="800" data-aos-delay="800" />
         <div className="social-fix">
           <div className="social-links d-flex flex-column align-items-center">
             {socialData.map((element, index) => (
