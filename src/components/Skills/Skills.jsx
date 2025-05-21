@@ -4,16 +4,12 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 export default function Skills() {
 	return (
 		<>
-<section id="skills" className="section-skills-2 mt-5 pt-5 px-3">
+<section id="skills" className="section-skills-2 mt-5 pt-5 lg-px-3">
 				<div className="container">
 					<SectionHeading title="Tech Stack & Tools" subTitle="My Skills" />
 					<div className="hero-container ">
-						<div className="hero-content position-relative z-1 py-5">
+						<div className="hero-content position-relative z-1 py-3 lg-py-5">
 							<div className="position-relative z-1">
-								<div className="text-center">
-									
-									
-								</div>
 								<div className="container mt-5">
 									<div className="row">
 										<div className="col-lg-6">
@@ -87,31 +83,31 @@ export default function Skills() {
 														<ul className="ps-3 d-flex flex-column justify-content-between h-100 position-relative">
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary">Front-End:</p>
+																	<p className="text-nowrap mb-2 text-secondary fs-5">Front-End:</p>
 																	<span className="text-300">HTML, CSS, JavaScript ,React, Next, Vue, TypeScript , Bootstrap, Tailwind CSS , jQuery</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary">Back-End:</p>
+																	<p className="text-nowrap mb-2 text-secondary fs-5">Back-End:</p>
 																	<span className="text-300">PHP, Laravel ,ExpressJS , NodeJS</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary">Databases:</p>
+																	<p className="text-nowrap mb-2 text-secondary fs-5">Databases:</p>
 																	<span className="text-300">MySQL, SQL Server, MongoDB</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary">Tools &amp; Platforms:</p>
+																	<p className="text-nowrap mb-2 text-secondary fs-5">Tools &amp; Platforms:</p>
 																	<span className="text-300">Git, GitHub, Jira, Trello</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary">Others:</p>
+																	<p className="text-nowrap mb-2 text-secondary fs-5">Others:</p>
 																	<span className="text-300">Wordepess , Elementor</span>
 																</div>
 															</li>

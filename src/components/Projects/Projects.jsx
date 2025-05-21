@@ -38,8 +38,8 @@ export default function Projects ({ data }){
                 >
                  {data.map((project, index) => (
                                      <SwiperSlide key={index}>
-                                       <div className="py-lg-5 px-lg-4 py-md-4 m-5 rounded-4 border-class bg-3">
-                                         <div className="row">
+                                       <div className="py-lg-5 px-lg-4 m-3 m-lg-5 p-3 rounded-4 border-class bg-3">
+                                         <div className="row ">
                                            <div className="col-lg-6">
                                              <img className="w-100 rounded-4" src={project.image} alt="project-img" />
                                            </div>

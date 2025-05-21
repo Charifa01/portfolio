@@ -15,17 +15,17 @@ export default function Education() {
 									<div className="d-flex flex-column h-100 position-relative mt-5">
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
-												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0 fs-5">2020 – 2022:</p>
-													<div>
+												<div className="d-flex flex-wrap gap-2">
+													<p className="col-lg-3 text-300 text-nowrap fw-regular mb-0 fs-5">2020 – 2022:</p>
+													<div className="col-lg-8">
 														<span className="text-primary-2 fs-5">High School Diploma in Physical Sciences</span>
 														<p className="text-secondary pt-2 fs-5">centre mixte de formation professionnelle (OFPPT), Agadir</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
-											<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0 fs-5">2018 – 2019:</p>
+											<div className="d-flex flex-wrap gap-2">
+													<p className="col-lg-3 text-300 text-nowrap fw-regular mb-0 fs-5">2018 – 2019:</p>
 													<div>
 														<span className="text-primary-2 fs-5">High School Diploma in Physical Sciences</span>
 														<p className="text-secondary pt-2 fs-5">Abdellah Ben Yassin High School, Inezgane</p>

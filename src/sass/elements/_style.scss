@@ -152,7 +152,10 @@ a {
 
 @media (max-width: 768px) {
   .custom-min-vh {
-    min-height: 60vh;
+    min-height: 85vh;
+  }
+  .home-section .hb-text {
+    padding: 70px 0;
   }
 }
 /* ----------------------
@@ -801,7 +804,7 @@ a {
 
 .section-skills-2 .carouselTicker__item {
     position: relative;
-    margin: 0 15px;
+    // margin: 0 15px;
     float: left;
     text-align: center;
     border: 1px solid var(--px-theme);
@@ -819,8 +822,7 @@ a {
   vertical-align: middle;
 }
 .carouselTicker__list {
-  margin: 10px 0;
-  padding: 0;
+  padding: 0 10px;
   list-style-type: none;
   overflow: hidden;
 }

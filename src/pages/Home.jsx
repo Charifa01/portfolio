@@ -10,7 +10,7 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 
 const Home = () => {
-  const { heroData, aboutData, experienceData, serviceData, contactData, footerData,projectData,otherProjectData } = data;
+  const { heroData, aboutData, experienceData, serviceData, contactData, footerData,projectData,otherProjectData,otherProjectData2 } = data;
   return (
     <>
       <main className="wrapper">
@@ -20,7 +20,7 @@ const Home = () => {
         <Skills/>
         <Service data={serviceData} />
         <Projects data={projectData}/>
-        <OtherProjects data={otherProjectData} />
+        <OtherProjects data={otherProjectData} data2={otherProjectData2} />
         
         <Footer data={footerData} />
       </main>

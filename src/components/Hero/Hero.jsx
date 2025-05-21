@@ -35,7 +35,7 @@ const Hero = ({ data }) => {
                   <span className='balise'>&lt;span&gt;</span> Hello World ! <span className='balise'>&lt;/span&gt;</span>
                 </div>
 
-                <h1 className="display-4 my-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
+                <h1 className="display-4 my-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" style={{lineHeight: '1.1'}}>{perser(title)}</h1>
                 <h3 className="fs-4 my-3">A <span className="text-linear-4 special-color">{'{'} Full Stack {'}'}</span> Web developer<span className="flicker">_</span></h3>
 
                 <div className="row">
@@ -71,8 +71,8 @@ const Hero = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="social-fix d-none d-lg-block">
-          <div className="social-links d-flex flex-column align-items-center">
+        <div className="social-fix">
+          <div className="social-links d-none d-lg-flex flex-column align-items-center">
             {socialData.map((element, index) => (
               <a href={element.link} key={index} target="_blank" rel="noopener noreferrer" className="mb-2">
                 <Icon icon={`fa6-brands:${element.icon}`} />
