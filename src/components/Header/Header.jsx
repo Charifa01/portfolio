@@ -11,19 +11,15 @@ const Header = ({ data }) => {
   return (
     <>
       {/* Show MobileHeader only on mobile screens */}
-      <div className="d-lg-none">
+      <div className="d-lg-none ">
         <MobileHeader data={data} />
       </div>
-
       {/* Existing Header for larger screens */}
       <div
         className={`header-left-fixed one-page-nav d-none d-lg-block ${
           mobileToggle ? 'menu-open' : ''
         }`}
       >
-        {/* Brand */}
-        
-        {/* / */}
         <ul className="main-menu">
           <li>
             <ScrollLink

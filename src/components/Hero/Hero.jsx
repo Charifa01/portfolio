@@ -5,7 +5,7 @@ import perser from 'html-react-parser';
 import { Link as ScrollLink } from "react-scroll";
 import Marquee from "react-fast-marquee";
 import style from "./style.css";
-import MobileHeader from '../Header/MobileHeader';
+// import MobileHeader from '../Header/MobileHeader';
 
 const Hero = ({ data }) => {
   const { title, subTitle, ImgLink, phone, email, socialData } = data;
@@ -26,26 +26,22 @@ const Hero = ({ data }) => {
 
   return (
     <>
-      <div className="d-lg-none">
-        <MobileHeader data={{ logoLight: ImgLink }} />
-      </div>
-
       <section id="home" className="home-section bg-dark">
         <div className="container">
-          <div className="row min-vh-100 align-items-center">
-            <div className="col-12 col-lg-7 col-xl-7 col-xxl-6">
-              <div className="hb-text pe-lg-5">
+          <div className="row custom-min-vh align-items-center">
+          <div className="col-lg-7 col-xl-7 col-xxl-6 pl-4">
+              <div className="hb-text ">
                 <div className="text-secondary-2 d-flex align-items-center mb-3">
-                  <span className='balise'>&lt;span&gt;</span> Hello! <span className='balise'>&lt;/span&gt;</span>
+                  <span className='balise'>&lt;span&gt;</span> Hello World ! <span className='balise'>&lt;/span&gt;</span>
                 </div>
 
-                <h1 className="display-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
+                <h1 className="display-4 my-3" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">{perser(title)}</h1>
                 <h3 className="fs-4 my-3">A <span className="text-linear-4 special-color">{'{'} Full Stack {'}'}</span> Web developer<span className="flicker">_</span></h3>
 
                 <div className="row">
-                  <div className="col-12 col-md-7 my-2">
+                  <div className="col-11 col-lg-7 my-2">
                     <Marquee className="position-relative z-1 mt-lg-0 mt-3">
-                      <ul className="carouselTicker__list d-flex justify-content-between">
+                      <ul className="carouselTicker__list d-flex justify-content-around">
                         <li><img src="/hero-1/icon-9.svg" alt="brand" /></li>
                         <li><img src="/hero-1/icon-1.svg" alt="brand" /></li>
                         <li><img src="/hero-1/icon-7.svg" alt="brand" /></li>
@@ -68,14 +64,14 @@ const Hero = ({ data }) => {
                 </div>
               </div>
             </div>
-            <div className="col-5" style={{height: '100vh' ,position: 'relative'}} >
-              <div className="hb-me d-none d-lg-block" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800" >
+            <div className="col-5 d-none d-lg-block" style={{height: '100vh' ,position: 'relative',transform: 'translateY(15%)'}} >
+              <div className="hb-me" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800" >
                 <img src={ImgLink} alt="hero" className="img-fluid" />
               </div>
             </div>
           </div>
         </div>
-        <div className="social-fix">
+        <div className="social-fix d-none d-lg-block">
           <div className="social-links d-flex flex-column align-items-center">
             {socialData.map((element, index) => (
               <a href={element.link} key={index} target="_blank" rel="noopener noreferrer" className="mb-2">

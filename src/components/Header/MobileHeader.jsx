@@ -33,7 +33,7 @@ const MobileHeader = ({ data }) => {
 
   return (
     <header className="mob-header d-lg-none">
-      <div className="brand d-flex align-items-center justify-content-between">
+      <div className="brand ">
         <img src={logoLight} alt="Logo" className="logo img-fluid" />
         <button
           className="btn btn-outline-light"

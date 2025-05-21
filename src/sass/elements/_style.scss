@@ -146,7 +146,15 @@ a {
     }
   }
 }
+.custom-min-vh {
+  min-height: 100vh;
+}
 
+@media (max-width: 768px) {
+  .custom-min-vh {
+    min-height: 60vh;
+  }
+}
 /* ----------------------
 * About Section
 ---------------------------*/
