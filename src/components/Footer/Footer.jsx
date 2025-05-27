@@ -6,17 +6,13 @@ const Footer = ({ data }) => {
   const currentYear = date.getFullYear();
 
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="footer-info">
-          <div className="footer-avatar">
-            <img src="" title="" alt="" />
-          </div>
-          <h6>Charifa Bounagat</h6>
-        </div>
-        <p className="copyright">© {currentYear} copyright all right reserved</p>
-      </div>
-    </footer>
+    <footer class="footer text-center pt-5 pb-3 mt-5 text-gray-600 text-sm">
+    <p>Made with ❤️ using React & Bootstrap</p>
+    <p>© 2025 Charifa Bounagat</p>
+   
+</footer>
+
+  
   )
 }
 Footer.propTypes = {
