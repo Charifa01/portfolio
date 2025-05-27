@@ -16,7 +16,7 @@ const Header = ({ data }) => {
       </div>
       {/* Existing Header for larger screens */}
       <div
-        className={`header-left-fixed one-page-nav d-none d-lg-block ${
+        className={`header-left-fixed one-page-nav d-none d-lg-flex ${
           mobileToggle ? 'menu-open' : ''
         }`}
       >
