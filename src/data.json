@@ -449,12 +449,12 @@
       "link": "https://www.cityviewlimousine.com/"
     },
     {
-      "image": "/wordpress-projects/private-shuttle.webp",
-      "link": "https://www.vailshuttle.net/"
-    },
-    {
       "image": "/wordpress-projects/limo-service-seattle.webp",
       "link": "https://www.alolimos.com/"
+    },
+    {
+      "image": "/wordpress-projects/denver-sprinter-van.webp",
+      "link": "https://vail-limo.com/sprinter/"
     }
   ],
   [
@@ -471,32 +471,6 @@
       "link": "https://www.unitedluxurylimousine.com/"
     }
   ]
-],
-"otherProjectData2":[
-    {
-      "image": "/wordpress-projects/boston-limo.webp",
-      "link": "https://www.cityviewlimousine.com/"
-    },
-    {
-      "image": "/wordpress-projects/private-shuttle.webp",
-      "link": "https://www.vailshuttle.net/"
-    },
-    {
-      "image": "/wordpress-projects/limo-service-seattle.webp",
-      "link": "https://www.alolimos.com/"
-    }
-  ,
-    {
-      "image": "/wordpress-projects/firstHope.webp",
-      "link": "http://vail-limo.com/firsthope/"
-    },
-    {
-      "image": "/wordpress-projects/boston airport.webp",
-      "link": "https://bostonairporttransportation.com/"
-    },
-    {
-      "image": "/wordpress-projects/seattle limousine.webp",
-      "link": "https://www.unitedluxurylimousine.com/"
-    }
 ]
+
 }
