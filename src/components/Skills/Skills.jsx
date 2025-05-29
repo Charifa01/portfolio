@@ -11,10 +11,10 @@ export default function Skills() {
 						<div className="hero-content position-relative z-1 py-3 lg-py-5">
 							<div className="position-relative z-1">
 								<div className="container mt-5">
-									<div className="row">
-										<div className="col-lg-6">
+									<div className="row my-5">
+										<div className="col-lg-5">
 										<div className="row py-4 ">
-												<div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
+												<div className="col-lg-11 col-md-9 mx-auto overflow-hidden">
 													{/* Carausel Scroll */}
 													<Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
 														<ul className="carouselTicker__list m-0">
@@ -47,7 +47,7 @@ export default function Skills() {
 														</ul>
 													</Marquee>
 												</div>
-												<div className="col-lg-8 col-md-7 col-10 mx-auto overflow-hidden">
+												<div className="col-lg-9 col-md-7 col-10 mx-auto overflow-hidden">
 													{/* Carausel Scroll */}
 													<Marquee className="carouselTicker carouselTicker-left position-relative z-1 mt-5">
 														<ul className="carouselTicker__list m-0 ">
@@ -76,38 +76,39 @@ export default function Skills() {
 												</div>
 											</div>
 										</div>
-										<div className="col-lg-6 border-start-md mt-lg-0 mt-5">
+										<div className="col-lg-7 border-start-md mt-lg-0 mt-5">
 											<div className="row">
 												<div className="col-md-10 mx-auto">
 													<div className="h-100 position-relative">
 														<ul className="ps-3 d-flex flex-column justify-content-between h-100 position-relative">
 															<li className="mb-3">
-																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary fs-5">Front-End:</p>
-																	<span className="text-300">HTML, CSS, JavaScript ,React, Next, Vue, TypeScript , Bootstrap, Tailwind CSS , jQuery</span>
+																<div className="">
+																	<span className="text-nowrap mb-2 text-secondary fs-5">Front-End : </span>
+																	<span className="text-300">JavaScript ,React, Next, Vue, TypeScript , Bootstrap, Tailwind CSS </span>
 																</div>
 															</li>
 															<li className="mb-3">
-																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary fs-5">Back-End:</p>
+																<div className="">
+																	<span className="text-nowrap mb-2 text-secondary fs-5">Back-End : </span>
 																	<span className="text-300">PHP, Laravel ,ExpressJS , NodeJS</span>
 																</div>
 															</li>
 															<li className="mb-3">
-																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary fs-5">Databases:</p>
+																<div className="">
+																	<span className="text-nowrap mb-2 text-secondary fs-5">Databases : </span>
 																	<span className="text-300">MySQL, SQL Server, MongoDB</span>
 																</div>
 															</li>
 															<li className="mb-3">
-																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary fs-5">Tools &amp; Platforms:</p>
-																	<span className="text-300">Git, GitHub, Jira, Trello</span>
+																<div className="">
+																	<span className="text-nowrap mb-2 text-secondary fs-5">Systèmes &amp; Outils : </span>
+																	<span className="text-300">Git, GitHub, Jira, Trello, CI/CD, Docker, GitHub Actions
+																	</span>
 																</div>
 															</li>
 															<li className="mb-3">
-																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-nowrap mb-2 text-secondary fs-5">Others:</p>
+																<div className="">
+																	<span className="text-nowrap mb-2 text-secondary fs-5">Others : </span>
 																	<span className="text-300">Wordepess , Elementor</span>
 																</div>
 															</li>

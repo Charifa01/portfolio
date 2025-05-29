@@ -7,21 +7,21 @@
     "title": "My name is<br /> <span> Charifa...</span>",
     "subTitle": "<span>Web Designer</span> based in <span>Agadir Morocco</span>",
     "ImgLink": "/portfolio-Imgs/portfolio.png",
-    "phone": "+21264425473",
+    "phone": "+212644254734",
     "email": "bounagatcharifa01@gmail.com",
-    "btnText": "Work with me",
+    "resumeCv": "/Resume.pdf",
     "socialData": [
       {
-        "link": "",
-        "icon": "dribbble"
+        "link": "https://api.whatsapp.com/send?phone=212644254734",
+        "icon": "whatsapp"
       },
       {
-        "link": "",
-        "icon": "instagram"
+        "link": "tel:+212644254734",
+        "icon": "phone"
       },
       {
-        "link": "",
-        "icon": "facebook"
+        "link": "mailto:bounagatcharifa01@gmail.com",
+        "icon": "email"
       }
     ]
   },
@@ -423,8 +423,8 @@
       "link": "https://github.com/Charifa01"
     },
     {
-      "icon": "google",
-      "link": ""
+      "icon": "envelope",
+      "link": "mailto:bounagatcharifa01@gmail.com"
     }
   ],
   "projectData":[

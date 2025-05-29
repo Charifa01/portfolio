@@ -96,7 +96,7 @@ const Header = ({ data }) => {
           {socialData.map((element, index) => (
             <li key={index}>
               <a href={element.link} target="_blank" rel="noopener noreferrer">
-                <Icon icon={`fa6-brands:${element.icon}`} />
+                <Icon icon={`mdi:${element.icon}`} />
               </a>
             </li>
           ))}

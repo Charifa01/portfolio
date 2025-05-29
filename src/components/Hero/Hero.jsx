@@ -8,7 +8,7 @@ import style from "./style.css";
 // import MobileHeader from '../Header/MobileHeader';
 
 const Hero = ({ data }) => {
-  const { title, subTitle, ImgLink, phone, email, socialData } = data;
+  const { title, resumeCv, ImgLink, phone, email, socialData } = data;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,9 +58,10 @@ const Hero = ({ data }) => {
                 </div>
 
                 <div className="btn-bar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-                  <ScrollLink to="contact" spy={true} className="btn btn-primary">
-                    [ Download my CV ]
-                  </ScrollLink>
+                <a href={resumeCv} className="btn btn-primary" download>
+                  Download my resume <Icon icon="bi-download" />
+                </a>
+                 
                 </div>
               </div>
             </div>
@@ -75,7 +76,7 @@ const Hero = ({ data }) => {
           <div className="social-links d-none d-lg-flex flex-column align-items-center">
             {socialData.map((element, index) => (
               <a href={element.link} key={index} target="_blank" rel="noopener noreferrer" className="mb-2">
-                <Icon icon={`fa6-brands:${element.icon}`} />
+                <Icon icon={`mdi:${element.icon}`} />
               </a>
             ))}
           </div>
